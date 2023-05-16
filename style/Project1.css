@@ -2,19 +2,21 @@
   display: flex;
   justify-content: space-evenly;
   justify-content: baseline;
-  margin: 4rem;
+  margin: 3rem;
 }
 .rowTwo {
   display: flex;
   justify-content: space-evenly;
   justify-content: baseline;
-  margin: 4rem;
+  margin: 3rem;
 }
 .collab {
   display: flex;
   flex-direction: column;
   align-content: center;
+  justify-content: space-around;
   text-align: center;
+  padding: 1rem;
 }
 .align {
   display: flex;
@@ -32,7 +34,7 @@
 .one {
   color: red;
   font-size: 10rem;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Josefin Sans", sans-serif;
   font-weight: bold;
   margin: 0;
 }
@@ -40,18 +42,22 @@
 .two {
   color: white;
   font-size: 10rem;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Josefin Sans", sans-serif;
   font-weight: bold;
 }
 .three {
   color: antiquewhite;
   font-size: 2rem;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Josefin Sans", sans-serif;
   font-weight: lighter;
+  text-underline-position: under;
+  text-transform: capitalize;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
 }
 
 body {
-  background-color: black;
+  background-color: rgb(0, 4, 36);
 }
 
 .myButton {
@@ -61,7 +67,8 @@ body {
   display: inline-block;
   cursor: pointer;
   color: #ffffff;
-  font-family: Times New Roman;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: lighter;
   font-size: 20px;
   font-weight: bold;
   font-style: italic;
@@ -78,7 +85,12 @@ body {
 .imgSize {
   display: block;
   max-width: 25rem;
+  border-radius: 20px;
   max-height: 25rem;
   width: auto;
   height: auto;
+}
+.myBackground {
+  background-color: rgb(43, 43, 43);
+  border-radius: 20px;
 }
