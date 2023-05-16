@@ -1,0 +1,84 @@
+.rowOne {
+  display: flex;
+  justify-content: space-evenly;
+  justify-content: baseline;
+  margin: 4rem;
+}
+.rowTwo {
+  display: flex;
+  justify-content: space-evenly;
+  justify-content: baseline;
+  margin: 4rem;
+}
+.collab {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+}
+.align {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 10rem;
+}
+.align2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: space-around;
+  margin: 10rem;
+}
+.one {
+  color: red;
+  font-size: 10rem;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  margin: 0;
+}
+
+.two {
+  color: white;
+  font-size: 10rem;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+.three {
+  color: antiquewhite;
+  font-size: 2rem;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: lighter;
+}
+
+body {
+  background-color: black;
+}
+
+.myButton {
+  box-shadow: inset 11px 4px 0px -15px #b54b3a;
+  background-color: #a73f2d;
+  border: 1px solid #241d13;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Times New Roman;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-shadow: -3px 1px 24px #7a2a1d;
+}
+.myButton:hover {
+  background-color: #b34332;
+}
+.myButton:active {
+  position: relative;
+}
+.imgSize {
+  display: block;
+  max-width: 25rem;
+  max-height: 25rem;
+  width: auto;
+  height: auto;
+}
